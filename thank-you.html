@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanh toán JABI 21</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=3" />
+</head>
+<body class="thankyou-body">
+  <main class="thankyou-page">
+    <div class="thankyou-card payment-card">
+      <div class="success-icon">✓</div>
+      <div class="eyebrow">BẠN ĐÃ GIỮ CHỖ THÀNH CÔNG</div>
+      <h1>Hoàn tất thanh toán JABI 21</h1>
+      <p class="subtitle">Thử thách 21 ngày – Hiểu mình – Hiểu con – Cùng con trưởng thành</p>
+
+      <div class="progress">
+        <div class="progress-line"><span style="width:66%"></span></div>
+        <div class="progress-labels">
+          <span class="done">✓ Đã đăng ký</span>
+          <span class="active">Bước 2: Thanh toán</span>
+          <span>Bước 3: Vào nhóm Zalo</span>
+        </div>
+      </div>
+
+      <section class="payment-section">
+        <div class="payment-amount">
+          <small>HỌC PHÍ CHƯƠNG TRÌNH</small>
+          <strong>199.000 đồng</strong>
+        </div>
+
+        <h2>Thông tin chuyển khoản</h2>
+
+        <div class="bank-grid">
+          <div class="qr-wrap">
+            <img src="./assets/qr-techcombank-cpec.jpg" alt="QR chuyển khoản Techcombank">
+          </div>
+
+          <div class="bank-details">
+            <div class="bank-row">
+              <span>Ngân hàng</span>
+              <strong>Techcombank</strong>
+            </div>
+            <div class="bank-row">
+              <span>Số tài khoản</span>
+              <div class="copy-line">
+                <strong id="accountNumber">05082006</strong>
+                <button type="button" class="copy-btn" data-copy="05082006">Sao chép</button>
+              </div>
+            </div>
+            <div class="bank-row">
+              <span>Chủ tài khoản</span>
+              <strong>VND-TGTT-TT TV TAM LI-GIAO DUC TRE EM</strong>
+            </div>
+            <div class="bank-row">
+              <span>Số tiền</span>
+              <strong>199.000 đồng</strong>
+            </div>
+            <div class="bank-row transfer-note">
+              <span>Nội dung chuyển khoản</span>
+              <div class="copy-line">
+                <strong id="transferContent">JABI21 - HỌ TÊN - SĐT</strong>
+                <button type="button" class="copy-btn" data-copy="JABI21 - HỌ TÊN - SĐT">Sao chép</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-notice">
+          <b>Quan trọng:</b> Vui lòng ghi đúng nội dung chuyển khoản để ban tổ chức đối soát nhanh và hỗ trợ bạn vào nhóm học.
+        </div>
+      </section>
+
+      <section class="confirmation-section">
+        <h3>Sau khi chuyển khoản</h3>
+        <p>Đánh dấu xác nhận dưới đây. Sau đó nút vào nhóm Zalo sẽ được mở.</p>
+
+        <label class="confirm-check">
+          <input type="checkbox" id="paymentConfirmed">
+          <span>Tôi xác nhận đã chuyển khoản 199.000 đồng theo đúng thông tin trên.</span>
+        </label>
+
+        <a class="btn btn-zalo btn-full disabled-link" id="zaloButton" href="#" target="_blank" rel="noopener" aria-disabled="true">
+          VÀO NHÓM ZALO NGAY
+        </a>
+
+        <p class="mini-note">Khi vào nhóm, hãy đổi tên theo mẫu: <b>Họ tên | Tỉnh thành | Tuổi của con</b>.</p>
+      </section>
+
+      <div class="gift-box">
+        <h4>🎁 Bạn sẽ nhận trong nhóm Zalo</h4>
+        <ul class="check-list dark-text">
+          <li>Ebook bộ câu hỏi giao tiếp hiệu quả</li>
+          <li>Bộ công cụ thực hành cùng con</li>
+          <li>Lịch chương trình và hướng dẫn chuẩn bị</li>
+          <li>Thông báo và hỗ trợ từ JABI ACADEMY</li>
+        </ul>
+      </div>
+
+      <div class="important">
+        <b>Lưu ý:</b> Việc đánh dấu đã chuyển khoản giúp mở nút vào nhóm, nhưng không thay thế bước đối soát của ban tổ chức.
+      </div>
+    </div>
+  </main>
+  <script src="./script.js?v=3"></script>
+</body>
+</html>
