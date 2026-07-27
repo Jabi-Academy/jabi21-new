@@ -6,7 +6,7 @@
 */
 const CONFIG = {
   ZALO_GROUP_URL: "https://zalo.me/g/w37hrcla55mordeumcpl",
-  FORM_ENDPOINT: "https://script.google.com/macros/s/AKfycbxZ_MnVW_6xvlbZ-2f7cJCobHI6tnsyS2doZLsdhB2g7vemIDv9ITbbockA3UXt8u3o/exec",
+  FORM_ENDPOINT: "https://script.google.com/macros/s/AKfycbzUJjbeoU8738pVM_ZAOv3sPg2yP3ARB2yAFm3ug-T6ddV0Z0VIfGgXphm-hN1iU5-x/exec",
   SUPPORT_PHONE: "05082006"
 };
 
